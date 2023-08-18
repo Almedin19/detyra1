@@ -1,0 +1,25 @@
+.prod-div {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+}
+
+.b-prod {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px #858585;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
